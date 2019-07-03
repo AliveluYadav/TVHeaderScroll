@@ -13,11 +13,48 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var navigationController: UINavigationController?
+//    var startVC:StartVC?
+    var startVC:AccontVC?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+//        self.startVC = StartVC(nibName: "StartVC", bundle: nil)
+        
+        self.startVC = AccontVC(nibName: "AccontVC", bundle: nil)
+        self.navigationController = UINavigationController(rootViewController: self.startVC!)
+        self.navigationController?.navigationBar.isHidden = true
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        self.window?.rootViewController = self.navigationController
+        self.window?.makeKeyAndVisible()
+    
+        
         return true
+        
+//        I am not getting how to replace this below code in proper way. please add it.
+        
+     /*  window = UIWindow(frame: UIScreen.main.bounds)
+        
+        //MARK : Setup SSASideMenu
+        
+        let sideMenu = SSASideMenu(contentViewController: UINavigationController(rootViewController: FirstViewController()), leftMenuViewController: LeftMenuViewController(), rightMenuViewController: RightMenuViewController())
+        sideMenu.backgroundImage = UIImage(named: "Background.jpg")
+        sideMenu.configure(SSASideMenu.MenuViewEffect(fade: true, scale: true, scaleBackground: false))
+        sideMenu.configure(SSASideMenu.ContentViewEffect(alpha: 1.0, scale: 0.7))
+        sideMenu.configure(SSASideMenu.ContentViewShadow(enabled: true, color: UIColor.black, opacity: 0.6, radius: 6.0))
+        sideMenu.delegate = self
+        
+        window?.rootViewController = sideMenu
+        window?.makeKeyAndVisible()
+        
+        return true */
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

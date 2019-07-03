@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6DFDABD220403F000E3DDE1 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFDABC220403F000E3DDE1 /* SSASideMenu.swift */; };
+		D6DFDAC02204047D00E3DDE1 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFDABE2204047D00E3DDE1 /* LeftMenuViewController.swift */; };
+		D6DFDAC12204047D00E3DDE1 /* LeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DFDABF2204047D00E3DDE1 /* LeftMenuViewController.xib */; };
+		D6DFDAC82204437800E3DDE1 /* RestaurentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFDAC62204437800E3DDE1 /* RestaurentCell.swift */; };
+		D6DFDAC92204437800E3DDE1 /* RestaurentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DFDAC72204437800E3DDE1 /* RestaurentCell.xib */; };
+		D6DFDACB22044AF500E3DDE1 /* Clock.png in Resources */ = {isa = PBXBuildFile; fileRef = D6DFDACA22044AF400E3DDE1 /* Clock.png */; };
+		D6DFDACD22044B0B00E3DDE1 /* Driver.png in Resources */ = {isa = PBXBuildFile; fileRef = D6DFDACC22044B0B00E3DDE1 /* Driver.png */; };
+		D6DFDACF22044B1D00E3DDE1 /* food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6DFDACE22044B1D00E3DDE1 /* food.jpeg */; };
 		D6E439E62201AF1100AD4B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E439E52201AF1100AD4B38 /* AppDelegate.swift */; };
 		D6E439E82201AF1100AD4B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E439E72201AF1100AD4B38 /* ViewController.swift */; };
 		D6E439EB2201AF1100AD4B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E439E92201AF1100AD4B38 /* Main.storyboard */; };
@@ -15,6 +23,21 @@
 		D6E439F32201AF1E00AD4B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E439F12201AF1E00AD4B38 /* LaunchScreen.storyboard */; };
 		D6E439FE2201AF1E00AD4B38 /* BarTabControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E439FD2201AF1E00AD4B38 /* BarTabControllersTests.swift */; };
 		D6E43A092201AF1F00AD4B38 /* BarTabControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E43A082201AF1F00AD4B38 /* BarTabControllersUITests.swift */; };
+		D6E43A192201AF8F00AD4B38 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E43A172201AF8F00AD4B38 /* HomeVC.swift */; };
+		D6E43A1A2201AF8F00AD4B38 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E43A182201AF8F00AD4B38 /* HomeVC.xib */; };
+		D6E43A1D2201AFB300AD4B38 /* AccontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E43A1B2201AFB300AD4B38 /* AccontVC.swift */; };
+		D6E43A1E2201AFB300AD4B38 /* AccontVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E43A1C2201AFB300AD4B38 /* AccontVC.xib */; };
+		D6E43A212201AFC400AD4B38 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E43A1F2201AFC400AD4B38 /* OrdersVC.swift */; };
+		D6E43A222201AFC400AD4B38 /* OrdersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E43A202201AFC400AD4B38 /* OrdersVC.xib */; };
+		D6E43A252201AFEF00AD4B38 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E43A232201AFEF00AD4B38 /* CartVC.swift */; };
+		D6E43A262201AFEF00AD4B38 /* CartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E43A242201AFEF00AD4B38 /* CartVC.xib */; };
+		D6E43A2A2201C8EE00AD4B38 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E43A292201C8ED00AD4B38 /* home.png */; };
+		D6E43A2C2201D47100AD4B38 /* res.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E43A2B2201D47000AD4B38 /* res.png */; };
+		D6E54A972202C1050026DA02 /* BarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E54A962202C1050026DA02 /* BarController.swift */; };
+		D6E54A9A2202C42E0026DA02 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E54A982202C42E0026DA02 /* StartVC.swift */; };
+		D6E54A9B2202C42E0026DA02 /* StartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E54A992202C42E0026DA02 /* StartVC.xib */; };
+		D6E69CBC220C35E600922C97 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E69CBA220C35E600922C97 /* RestaurantCell.swift */; };
+		D6E69CBD220C35E600922C97 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E69CBB220C35E600922C97 /* RestaurantCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6DFDABC220403F000E3DDE1 /* SSASideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		D6DFDABE2204047D00E3DDE1 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		D6DFDABF2204047D00E3DDE1 /* LeftMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftMenuViewController.xib; sourceTree = "<group>"; };
+		D6DFDAC62204437800E3DDE1 /* RestaurentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurentCell.swift; sourceTree = "<group>"; };
+		D6DFDAC72204437800E3DDE1 /* RestaurentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurentCell.xib; sourceTree = "<group>"; };
+		D6DFDACA22044AF400E3DDE1 /* Clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock.png; sourceTree = "<group>"; };
+		D6DFDACC22044B0B00E3DDE1 /* Driver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Driver.png; sourceTree = "<group>"; };
+		D6DFDACE22044B1D00E3DDE1 /* food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpeg; sourceTree = "<group>"; };
 		D6E439E22201AF1100AD4B38 /* BarTabControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTabControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E439E52201AF1100AD4B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6E439E72201AF1100AD4B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +80,21 @@
 		D6E43A042201AF1E00AD4B38 /* BarTabControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarTabControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E43A082201AF1F00AD4B38 /* BarTabControllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTabControllersUITests.swift; sourceTree = "<group>"; };
 		D6E43A0A2201AF1F00AD4B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E43A172201AF8F00AD4B38 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D6E43A182201AF8F00AD4B38 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		D6E43A1B2201AFB300AD4B38 /* AccontVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccontVC.swift; sourceTree = "<group>"; };
+		D6E43A1C2201AFB300AD4B38 /* AccontVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccontVC.xib; sourceTree = "<group>"; };
+		D6E43A1F2201AFC400AD4B38 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		D6E43A202201AFC400AD4B38 /* OrdersVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersVC.xib; sourceTree = "<group>"; };
+		D6E43A232201AFEF00AD4B38 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		D6E43A242201AFEF00AD4B38 /* CartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartVC.xib; sourceTree = "<group>"; };
+		D6E43A292201C8ED00AD4B38 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		D6E43A2B2201D47000AD4B38 /* res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res.png; sourceTree = "<group>"; };
+		D6E54A962202C1050026DA02 /* BarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarController.swift; sourceTree = "<group>"; };
+		D6E54A982202C42E0026DA02 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		D6E54A992202C42E0026DA02 /* StartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartVC.xib; sourceTree = "<group>"; };
+		D6E69CBA220C35E600922C97 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		D6E69CBB220C35E600922C97 /* RestaurantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +125,14 @@
 		D6E439D92201AF1100AD4B38 = {
 			isa = PBXGroup;
 			children = (
+				D6E69CBA220C35E600922C97 /* RestaurantCell.swift */,
+				D6E69CBB220C35E600922C97 /* RestaurantCell.xib */,
+				D6DFDAC62204437800E3DDE1 /* RestaurentCell.swift */,
+				D6DFDAC72204437800E3DDE1 /* RestaurentCell.xib */,
+				D6DFDABC220403F000E3DDE1 /* SSASideMenu.swift */,
+				D6E54A982202C42E0026DA02 /* StartVC.swift */,
+				D6E54A992202C42E0026DA02 /* StartVC.xib */,
+				D6E54A962202C1050026DA02 /* BarController.swift */,
 				D6E439E42201AF1100AD4B38 /* BarTabControllers */,
 				D6E439FC2201AF1E00AD4B38 /* BarTabControllersTests */,
 				D6E43A072201AF1F00AD4B38 /* BarTabControllersUITests */,
@@ -99,6 +153,12 @@
 		D6E439E42201AF1100AD4B38 /* BarTabControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D6E43A292201C8ED00AD4B38 /* home.png */,
+				D6DFDACC22044B0B00E3DDE1 /* Driver.png */,
+				D6DFDACE22044B1D00E3DDE1 /* food.jpeg */,
+				D6E43A2B2201D47000AD4B38 /* res.png */,
+				D6DFDACA22044AF400E3DDE1 /* Clock.png */,
+				D6E43A162201AF2E00AD4B38 /* VC */,
 				D6E439E52201AF1100AD4B38 /* AppDelegate.swift */,
 				D6E439E72201AF1100AD4B38 /* ViewController.swift */,
 				D6E439E92201AF1100AD4B38 /* Main.storyboard */,
@@ -126,6 +186,23 @@
 				D6E43A0A2201AF1F00AD4B38 /* Info.plist */,
 			);
 			path = BarTabControllersUITests;
+			sourceTree = "<group>";
+		};
+		D6E43A162201AF2E00AD4B38 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D6E43A172201AF8F00AD4B38 /* HomeVC.swift */,
+				D6E43A182201AF8F00AD4B38 /* HomeVC.xib */,
+				D6E43A1B2201AFB300AD4B38 /* AccontVC.swift */,
+				D6E43A1C2201AFB300AD4B38 /* AccontVC.xib */,
+				D6E43A1F2201AFC400AD4B38 /* OrdersVC.swift */,
+				D6E43A202201AFC400AD4B38 /* OrdersVC.xib */,
+				D6E43A232201AFEF00AD4B38 /* CartVC.swift */,
+				D6E43A242201AFEF00AD4B38 /* CartVC.xib */,
+				D6DFDABE2204047D00E3DDE1 /* LeftMenuViewController.swift */,
+				D6DFDABF2204047D00E3DDE1 /* LeftMenuViewController.xib */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +309,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6DFDACF22044B1D00E3DDE1 /* food.jpeg in Resources */,
+				D6DFDAC92204437800E3DDE1 /* RestaurentCell.xib in Resources */,
 				D6E439F32201AF1E00AD4B38 /* LaunchScreen.storyboard in Resources */,
+				D6E54A9B2202C42E0026DA02 /* StartVC.xib in Resources */,
+				D6DFDACB22044AF500E3DDE1 /* Clock.png in Resources */,
+				D6E43A1A2201AF8F00AD4B38 /* HomeVC.xib in Resources */,
+				D6DFDAC12204047D00E3DDE1 /* LeftMenuViewController.xib in Resources */,
+				D6E43A1E2201AFB300AD4B38 /* AccontVC.xib in Resources */,
+				D6DFDACD22044B0B00E3DDE1 /* Driver.png in Resources */,
+				D6E43A2C2201D47100AD4B38 /* res.png in Resources */,
+				D6E43A262201AFEF00AD4B38 /* CartVC.xib in Resources */,
 				D6E439F02201AF1E00AD4B38 /* Assets.xcassets in Resources */,
+				D6E69CBD220C35E600922C97 /* RestaurantCell.xib in Resources */,
 				D6E439EB2201AF1100AD4B38 /* Main.storyboard in Resources */,
+				D6E43A222201AFC400AD4B38 /* OrdersVC.xib in Resources */,
+				D6E43A2A2201C8EE00AD4B38 /* home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +349,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6DFDAC82204437800E3DDE1 /* RestaurentCell.swift in Sources */,
 				D6E439E82201AF1100AD4B38 /* ViewController.swift in Sources */,
+				D6E43A212201AFC400AD4B38 /* OrdersVC.swift in Sources */,
+				D6E43A252201AFEF00AD4B38 /* CartVC.swift in Sources */,
+				D6DFDABD220403F000E3DDE1 /* SSASideMenu.swift in Sources */,
+				D6E43A192201AF8F00AD4B38 /* HomeVC.swift in Sources */,
+				D6E43A1D2201AFB300AD4B38 /* AccontVC.swift in Sources */,
 				D6E439EE2201AF1100AD4B38 /* BarTabControllers.xcdatamodeld in Sources */,
+				D6DFDAC02204047D00E3DDE1 /* LeftMenuViewController.swift in Sources */,
 				D6E439E62201AF1100AD4B38 /* AppDelegate.swift in Sources */,
+				D6E69CBC220C35E600922C97 /* RestaurantCell.swift in Sources */,
+				D6E54A972202C1050026DA02 /* BarController.swift in Sources */,
+				D6E54A9A2202C42E0026DA02 /* StartVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
